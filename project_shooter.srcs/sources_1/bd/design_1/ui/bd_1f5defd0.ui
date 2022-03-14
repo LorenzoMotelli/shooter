@@ -1,0 +1,47 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.216822",
+   "Default View_TopLeft":"-913,0",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+#  -string -flagsOSRD
+preplace port usb_uart -pg 1 -lvl 4 -x 1080 -y 80 -defaultsOSRD
+preplace port SPI_io1 -pg 1 -lvl 0 -x 0 -y 20 -defaultsOSRD
+preplace port SPI_sck -pg 1 -lvl 4 -x 1080 -y 40 -defaultsOSRD
+preplace port reset -pg 1 -lvl 0 -x 0 -y 40 -defaultsOSRD
+preplace port sys_clock -pg 1 -lvl 0 -x 0 -y 60 -defaultsOSRD
+preplace portBus SPI_io0 -pg 1 -lvl 4 -x 1080 -y 20 -defaultsOSRD
+preplace portBus SPI_ss_vect -pg 1 -lvl 4 -x 1080 -y 60 -defaultsOSRD
+preplace inst AXI4Stream_RS232_0 -pg 1 -lvl 1 -x 290 -y 120 -defaultsOSRD
+preplace inst Pmod_JSTK2_0 -pg 1 -lvl 1 -x 290 -y 520 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -x 290 -y 750 -defaultsOSRD
+preplace inst depacketyzer_0 -pg 1 -lvl 1 -x 290 -y 890 -defaultsOSRD
+preplace inst packetizer_0 -pg 1 -lvl 3 -x 930 -y 230 -defaultsOSRD
+preplace inst util_vector_logic_0 -pg 1 -lvl 1 -x 290 -y 300 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 2 -x 720 -y 1000 -defaultsOSRD
+preplace netloc AXI4Stream_RS232_0_m00_axis_rx_tdata 1 0 2 100 980 530
+preplace netloc AXI4Stream_RS232_0_m00_axis_rx_tvalid 1 0 2 110 990 520
+preplace netloc Pmod_JSTK2_0_SPI_io0_o 1 1 3 550J 20 NJ 20 N
+preplace netloc Pmod_JSTK2_0_SPI_sck_o 1 1 3 560 40 NJ 40 NJ
+preplace netloc Pmod_JSTK2_0_SPI_ss_o 1 1 3 570 60 NJ 60 NJ
+preplace netloc Pmod_JSTK2_0_jstk_x 1 1 2 610 260 NJ
+preplace netloc Pmod_JSTK2_0_jstk_y 1 1 2 640 280 NJ
+preplace netloc Pmod_JSTK2_0_out_valid 1 1 2 600J 220 N
+preplace netloc Pmod_JSTK2_0_trigger_btn 1 1 2 630 240 NJ
+preplace netloc SPI_io1_1 1 0 2 40J 1000 500J
+preplace netloc clk_wiz_0_clk_out1 1 0 3 60 1010 590 180 N
+preplace netloc depacketyzer_0_channel_blue 1 0 2 70 1020 470
+preplace netloc depacketyzer_0_channel_green 1 0 2 80 1030 490
+preplace netloc depacketyzer_0_channel_red 1 0 2 90 1040 510
+preplace netloc depacketyzer_0_o_ready 1 1 1 480 140n
+preplace netloc reset_1 1 0 3 20 1050 620 200 NJ
+preplace netloc sys_clock_1 1 0 1 30J 60n
+preplace netloc util_vector_logic_0_Res 1 0 2 50 1060 540
+preplace netloc xlconstant_0_dout 1 1 2 580 500 800
+preplace netloc AXI4Stream_RS232_0_UART 1 1 3 540 80 NJ 80 NJ
+preplace netloc packetizer_0_m00_axis 1 0 4 90 240 580J 120 NJ 120 1060
+levelinfo -pg 1 0 290 720 930 1080
+pagesize -pg 1 -db -bbox -sgen -120 0 1240 1070
+"
+}
+
